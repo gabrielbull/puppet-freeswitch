@@ -1,0 +1,8 @@
+name    'gabrielbull-freeswitch'
+version '1.0.0'
+source 'https://github.com/gabrielbull/puppet-freeswitch'
+author 'gabrielbull'
+license 'MIT'
+summary 'Setup PHP freeswitch'
+description 'Setup PHP freeswitch'
+project_page 'https://github.com/gabrielbull/puppet-freeswitch'

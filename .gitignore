@@ -1,0 +1,12 @@
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+Gemfile.lock
+metadata.json
+spec/fixtures/modules/
+pkg/
+.rspec_system/
+.bundle/
