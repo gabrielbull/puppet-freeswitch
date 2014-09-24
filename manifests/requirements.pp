@@ -2,8 +2,8 @@ class freeswitch::requirements {
   package { 'autoconf': ensure => "present", }
   package { 'automake': ensure => "present", }
   package { 'gcc-c++': ensure => "present", }
-  package { 'git-core': ensure => "present", }
-  package { 'libjpeg-devel': ensure => "present", }
+  package { 'git': ensure => "present", }
+  package { 'libjpeg-turbo-devel': ensure => "present", }
   package { 'libtool': ensure => "present", }
   package { 'make': ensure => "present", }
   package { 'ncurses-devel': ensure => "present", }
@@ -14,7 +14,6 @@ class freeswitch::requirements {
   package { 'libvorbis-devel': ensure => "present", }
   package { 'libcurl-devel': ensure => "present", }
   package { 'libtiff-devel': ensure => "present", }
-  package { 'libjpeg-devel': ensure => "present", }
   package { 'python-devel': ensure => "present", }
   package { 'expat-devel': ensure => "present", }
   package { 'zlib': ensure => "present", }
